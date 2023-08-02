@@ -1,0 +1,78 @@
+:root
+{
+    --fontStyle: Arial, Helvetica, sans-serif;
+    --navMarginRight:12px;
+}
+#navbar
+{
+    text-align: right;
+    padding: 12px;
+    border-spacing: 12px;
+}
+.navElements
+{
+    text-decoration: none;
+    color: black;
+    margin-right: var(--navMarginRight);
+    font-family: var(--fontStyle);
+}
+.navElements:hover
+{
+    text-decoration: underline;
+}
+#dropdown-menu
+{
+    position: relative;
+    top: 9px;
+    margin-right: var(--navMarginRight);
+    font-size: 30px;
+}
+#profileImage
+{
+    margin-right: var(--navMarginRight);
+    position: relative;
+    top: 15px;
+    border-radius: 50px;
+}
+#contentWrapper
+{
+    /* margin-top: 10%; */
+    text-align: center;
+}
+#mainContent
+{
+    
+
+}
+#searchBar
+{
+    margin: 2%;
+    padding: 12px;
+    font-size: 20px;
+    padding-left: 24px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    
+}
+#micIcon
+{
+    position: relative;
+    right: 120px;
+    top: 12px;
+}
+.btns
+{
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    background-color: rgba(230, 223, 223, 0.3);
+    margin-right: 15px;
+    font-size: 15px;
+}
+.btns:hover
+{
+    border: 1px solid  darkgray;
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+}
